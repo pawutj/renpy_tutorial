@@ -46,17 +46,15 @@ label ch1:
         ayase angry "ถ้าพวกเธอเล่นกันแบบนี้ พวกเธอจะเอาอะไรไปสอบ" with dissolve
         hide ayase
 
-        show mikan normal
-        show bandai
+        show mikan smile
         mikan smile "อะไรที่เป็นบริษัทขายของเล่น?" with dissolve
         hide mikan
-        hide bandai
 
-        show ayase angry
         show ladder
         ayase angry "แล้วนี่ ใช่บันไดรึเปล่า" with dissolve
+        play music "audio/sfx/tukkomi.mp3"
         hide ayase
-        hide ladder
 
+    scene black with Dissolve(2.0)
 
     return
