@@ -4,7 +4,7 @@
 # name of the character.
 
 define e = Character("Eileen")
-
+define ayase = Character("Ayase")
 
 # The game starts here.
 
@@ -20,13 +20,13 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show eileen happy
+    show ayase angry
 
     # These display lines of dialogue.
 
-    e "You've created a new Ren'Py game."
+    ayase "You've created a new Ren'Py game."
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    ayase "Once you add a story, pictures, and music, you can release it to the world!"
 
     # This ends the game.
 
