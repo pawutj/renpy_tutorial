@@ -52,9 +52,10 @@ label ch1:
 
         show ladder
         ayase angry "แล้วนี่ ใช่บันไดรึเปล่า" with dissolve
-        play music "audio/sfx/tukkomi.mp3"
+        play sound "audio/sfx/tukkomi.mp3"
         hide ayase
 
     scene black with Dissolve(2.0)
 
     return
+
